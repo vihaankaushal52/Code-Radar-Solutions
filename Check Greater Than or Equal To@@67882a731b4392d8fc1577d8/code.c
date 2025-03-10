@@ -6,9 +6,12 @@ int main() {
     // Reading two space-separated integers
     scanf("%d %d", &num1, &num2);
 
-    // Performing bitwise OR operation and printing the result
-    int result = num1 | num2;
-    printf("%d\n", result);
+    // Checking if the first number is greater than or equal to the second
+    if (num1 >= num2) {
+        printf("True\n");
+    } else {
+        printf("False\n");
+    }
 
     return 0;
 }
