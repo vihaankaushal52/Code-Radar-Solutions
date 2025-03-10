@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2;
+    int num;
 
-    // Reading two space-separated integers
-    scanf("%d %d", &num1, &num2);
+    // Reading the integer
+    scanf("%d", &num);
 
-    // Checking if two numbers have opposite signs
-    if ((num1 > 0 && num2 < 0) || (num1 < 0 && num2 > 0)) {
+    // Checking if the number is not greater than zero
+    if (!(num > 0)) {
         printf("True\n");
     } else {
         printf("False\n");
